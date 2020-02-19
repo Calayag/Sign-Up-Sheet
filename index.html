@@ -1,0 +1,41 @@
+<html>
+  <head lang="en">
+     <meta charset="utf-8">
+     <title>Sign Up Sheet </title>
+     <link rel="stylesheet" type="text/css" href="sus.css">
+     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  </head>
+  <body>
+
+    <form action="action_page.php" style="border:1px solid #ccc">
+      <div class="container">
+        <h1>Sign Up!</h1>
+        <p>Please fill in this form.</p>
+        <hr>
+
+
+        <input type="file" placeholder="Upload Picture" name="picture" required>
+        <input type="text" placeholder="Enter Description" name="description" required>
+        <br><br>
+        <label for="name"><b>Name</b></label>
+        <input type="text" placeholder="Enter Name" name="name" required>
+        <label for="birthday"><b>Birthday</b></label><br>
+        <input type="date" placeholder="Enter Birthday" name="birthday"><br>
+        <label for="address"><b>Address</b></label>
+        <input type="text" placeholder="Enter Address" name="address" required>
+        <label for="email address"><b>Email Address</b></label>
+        <input type="text" placeholder="Enter Email Address" name="email address" required>
+        <label for="mobile number"><b>Mobile Number</b></label>
+        <input type="text" placeholder="Enter Mobile Number" name="mobile number" required>
+
+        <div class="clearfix">
+          <button type="button" class="cancelbtn">Cancel</button>
+          <button type="submit" class="signupbtn">Sign Up</button>
+        </div>
+      </div>
+    </form>
+    <script type="text/javascript" src="js/jquery-3.4.1.slim.min.js"></script>
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  </body>
+</html>
